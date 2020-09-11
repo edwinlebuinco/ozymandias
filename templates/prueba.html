@@ -1,0 +1,12 @@
+<html>
+  <head>
+    {% if titulo %}
+    <title>{{ titulo }} - Mi web de prototipado</title>
+    {% else %}
+    <title>Bienvenido a mi web de prototipado</title>
+    {% endif %}
+  </head>
+  <body>
+      <h1>Hola, {{ usuario.nombre }}!</h1>
+  </body>
+</html>

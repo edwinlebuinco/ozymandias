@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop mbr-site-loaded"><head>
+  <!-- De lebuinco.com con amor -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="ozymandias">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logozy.svg" type="image/x-icon">
+  <meta name="description" content="">
+  <title>Welcome to your Ozymandias Backlog</title>
+  <link rel="stylesheet" href="/templates/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="/templates/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/templates/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/templates/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="/templates/socicon/css/styles.css">
+  <link rel="stylesheet" href="/templates/tether/tether.min.css">
+  <link rel="stylesheet" href="/templates/dropdown/css/style.css">
+
+  <link rel="stylesheet" href="/templates/starts/css/styles.css">
+
+  <link href="/templates/css/style.css" rel="stylesheet">
+  <link rel="preload" as="style" href="/templates/mobirise/css/mbr-additional.css">
+  <link rel="stylesheet" href="/templates/mobirise/css/mbr-additional.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&amp;display=swap" rel="stylesheet">
+  <style type="text/css" id="jarallax-clip-0">
+      body{
+          font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+      }
+      h1, h2, h3, h4, h5, h6{
+          font-family: 'Lato', sans-serif !important;
+      }
+  </style>
+
+  <style type="text/css" id="jarallax-clip-0">#jarallax-container-0 {
+     clip: rect(0 0px 0px 0);
+     clip: rect(0, 0px, 0px, 0);
+     }
+  </style>
+</head>
+
+<body><section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0" style="
+     width: 100vw;
+     height: 76px;
+     ">
+     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-toggleable-sm" style="
+        background: #fff;
+        ">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+           </div>
+        </button>
+        <div class="menu-logo col-3">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="/">
+                        <img src="/templates/images/ozy_1.svg" alt="Mobirise" title="" style="height: 2.8rem;">
+                        
+                    </a>
+                </span>
+
+            </div>
+        </div>
+     </nav>
+  </section>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+  <div class="row">
+    <div class="col-md-3" style="padding: 50px 0px;">
+      <ul>
+        <li class="list-item title">
+          Setting
+        </li>
+        <ul>
+          <li class="list-item">
+            Cuenta
+          </li>
+          <li class="list-item">
+            Preferencias
+          </li>
+          <li class="list-item">
+            <a href="/backlog">Backlog</a>
+          </li>
+          <li class="list-item">
+            <a href="/historic">Historial</a>
+          </li>
+          <li class="list-item">
+            Sobre Ozy
+          </li>
+          <li class="list-item">
+            <a href="/logout">Salir</a>
+          </li>
+        </ul>
+        <div>
+          <div style="writing-mode: vertical-lr;font-size: 430%;transform: rotate(180deg);color: #8e8e8e;background: #d6d6d6d4;width: 190px;height: 270px;padding-left: 50px;padding-top: 70px;position: absolute;">
+              Beta
+              </div><li class="list-item title">
+                    Expertos
+                  </li>
+                  <ul>
+                    <li class="list-item">
+                      Kirk Hamilton
+                    </li>
+                    <li class="list-item">
+                      Mark Andreessen
+                    </li>
+                    <li class="list-item">
+                      Jason Schreier
+                    </li>
+                  </ul>
+                  <li class="list-item title">
+                    Amigos
+                  </li>
+                  <ul>
+                    <li class="list-item">
+                      Dimaius 89
+                    </li>
+                    <li class="list-item">
+                      Jedi.hugo
+                    </li>
+                    <li class="list-item">
+                      Ariaka 222
+                    </li>
+                      </ul></div>
+        </ul>
+      </ul>
+    </div>
+    <div class="col-md-9" style="padding: 50px 0px;">
+      <h1 style="width: 100%;text-align: left;color: #3a506b;height: 70px;">Historial</h1>
+      <table class="table table-hover table-striped">
+        <thead>
+          <tr style="background: #3A506B; color: #fff;">
+            <th style="text-align: center;">
+              OZY
+            </th>
+            <th>
+              ITEM
+            </th>
+            <th>
+              FECHA
+            </th>
+            <th>
+              FIT
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {%for i in range(0, len)%} 
+            <tr>
+              <td style="text-align: center;">
+                {% if ob_results[i]["_tipo"] == "videojuego" %}
+                  <img src="/templates/img/joystick.svg">
+                {% endif %}
+                {% if ob_results[i]["_tipo"] == "libro" %}
+                  <img src="/templates/img/books.svg">
+                {% endif %}
+                {% if ob_results[i]["_tipo"] == "pelicula" %}
+                  <img src="/templates/img/palomitas-de-maiz.svg">
+                {% endif %}
+              </td>
+              <td style="width: 50%;">
+                {{ob_results[i]["_nombre"]}}
+              </td>
+              <td>
+                {{ob_results[i]["_fecha"]}}
+              </td>
+              <td style="color: rgb(29, 0, 255);font-weight: bold;">
+                {% if ob_results[i]["_cali"] == 1 %}
+                <div class="star_content">
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="1">1</a></div> 
+                    <div class="star" style="cursor: initial;"><a style="cursor: initial;" title="2">2</a></div> 
+                    <div class="star" style="cursor: initial;"><a style="cursor: initial;" title="3">3</a></div> 
+                    <div class="star" style="cursor: initial;"><a style="cursor: initial;" title="4">4</a></div> 
+                    <div class="star" style="cursor: initial;"><a style="cursor: initial;" title="5">5</a></div>
+                </div>
+                {% endif %}
+                {% if ob_results[i]["_cali"] == 2 %}
+                <div class="star_content">
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="1">1</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="2">2</a></div> 
+                    <div class="star" style="cursor: initial;"><a style="cursor: initial;" title="3">3</a></div> 
+                    <div class="star" style="cursor: initial;"><a style="cursor: initial;" title="4">4</a></div> 
+                    <div class="star" style="cursor: initial;"><a style="cursor: initial;" title="5">5</a></div>
+                </div>
+                {% endif %}
+                {% if ob_results[i]["_cali"] == 3 %}
+                <div class="star_content">
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="1">1</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="2">2</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="3">3</a></div> 
+                    <div class="star" style="cursor: initial;"><a style="cursor: initial;" title="4">4</a></div> 
+                    <div class="star" style="cursor: initial;"><a style="cursor: initial;" title="5">5</a></div>
+                </div>
+                {% endif %}
+                {% if ob_results[i]["_cali"] == 4 %}
+                <div class="star_content">
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="1">1</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="2">2</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="3">3</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="4">4</a></div> 
+                    <div class="star " style="cursor: initial;"><a style="cursor: initial;" title="5">5</a></div>
+                </div>
+                {% endif %}
+                {% if ob_results[i]["_cali"] == 5 %}
+                <div class="star_content">
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="1">1</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="2">2</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="3">3</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="4">4</a></div> 
+                    <div class="star star_hover" style="cursor: initial;"><a style="cursor: initial;" title="5">5</a></div>
+                </div>
+                {% endif %}
+              </td>
+            </tr>
+          {%endfor%} 
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="carousel slide" id="carousel-44468">
+        <ol class="carousel-indicators">
+          <li data-slide-to="0" data-target="#carousel-44468" class="">
+          </li>
+          <li data-slide-to="1" data-target="#carousel-44468" class="active">
+          </li>
+          <li data-slide-to="2" data-target="#carousel-44468">
+          </li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="d-block" style="padding: 15px;width: 24%;display: inline-block !important;">
+              <img class="d-block w-100" alt="Carousel Bootstrap First" src="/templates/img/item.png">
+              <p class="p_titulo">Gaming 360</p>
+              <p class="p_subtitulo">Tendencias de juegos</p>
+            </div>
+            <div class="d-block" style="padding: 15px;width: 24%;display: inline-block !important;">
+              <img class="d-block w-100" alt="Carousel Bootstrap First" src="/templates/img/item.png">
+              <p class="p_titulo">Gaming 360</p>
+              <p class="p_subtitulo">Tendencias de juegos</p>
+            </div>
+            <div class="d-block" style="padding: 15px;width: 24%;display: inline-block !important;">
+              <img class="d-block w-100" alt="Carousel Bootstrap First" src="/templates/img/item.png">
+              <p class="p_titulo">Gaming 360</p>
+              <p class="p_subtitulo">Tendencias de juegos</p>
+            </div>
+            <div class="d-block" style="padding: 15px;width: 24%;display: inline-block !important;">
+              <img class="d-block w-100" alt="Carousel Bootstrap First" src="/templates/img/item.png">
+              <p class="p_titulo">Gaming 360</p>
+              <p class="p_subtitulo">Tendencias de juegos</p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div style="font-size: 430%;color: #8e8e8e;background: #d6d6d6d4;width: 100%;height: 270px;padding-top: 70px;position: absolute;margin-left: -50px;text-align: center;">
+              Beta
+              </div>
+            <div class="d-block" style="padding: 15px;width: 24%;display: inline-block !important;">
+              <img class="d-block w-100" alt="Carousel Bootstrap First" src="/templates/img/item.png">
+              <p class="p_titulo">Gaming 360</p>
+              <p class="p_subtitulo">Tendencias de juegos</p>
+            </div>
+            <div class="d-block" style="padding: 15px;width: 24%;display: inline-block !important;">
+              <img class="d-block w-100" alt="Carousel Bootstrap First" src="/templates/img/item.png">
+              <p class="p_titulo">Gaming 360</p>
+              <p class="p_subtitulo">Tendencias de juegos</p>
+            </div>
+            <div class="d-block" style="padding: 15px;width: 24%;display: inline-block !important;">
+              <img class="d-block w-100" alt="Carousel Bootstrap First" src="/templates/img/item.png">
+              <p class="p_titulo">Gaming 360</p>
+              <p class="p_subtitulo">Tendencias de juegos</p>
+            </div>
+            <div class="d-block" style="padding: 15px;width: 24%;display: inline-block !important;">
+              <img class="d-block w-100" alt="Carousel Bootstrap First" src="/templates/img/item.png">
+              <p class="p_titulo">Gaming 360</p>
+              <p class="p_subtitulo">Tendencias de juegos</p>
+            </div>
+          </div>
+        </div> <a class="carousel-control-prev" href="#carousel-44468" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-44468" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div><section class="cid-s1qH8qU2bM" id="footer5-9">
+     <div class="container">
+        <div class="media-container-row">
+           <div class="col-md-3" style="float: left;">
+              <div class="media-wrap">
+                 <a href="/">
+                 <img src="/templates/images/ozy_1.svg" alt="" title="">
+                 </a>
+              </div>
+           </div>
+           <div class="col-md-9" style="float: right;">
+              <p class="mbr-text align-right links mbr-fonts-style display-7" titulito="" style="text-align: right;margin-bottom: 0 !important;">Aviso de privacidad &nbsp; · &nbsp;Términos y condiciones&nbsp;</p>
+           </div>
+        </div>
+     </div>
+  </section>
+
+
+<script src="/templates/web/assets/jquery/jquery.min.js"></script>
+<script src="/templates/popper/popper.min.js"></script>
+<script src="/templates/bootstrap/js/bootstrap.min.js"></script>
+<script src="/templates/tether/tether.min.js"></script>
+<script src="/templates/dropdown/js/nav-dropdown.js"></script>
+<script src="/templates/dropdown/js/navbar-dropdown.js"></script>
+<script src="/templates/touchswipe/jquery.touch-swipe.min.js"></script>
+<script src="/templates/parallax/jarallax.min.js"></script>
+<script src="/templates/smoothscroll/smooth-scroll.js"></script>
+<script src="/templates/theme/js/script.js"></script>
+
+
+</body></html>
