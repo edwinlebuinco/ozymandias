@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="72" viewBox="0 0 296 72">
+  <g id="Logo" transform="translate(-149.796 -122.621)">
+    <text id="zymandias" transform="translate(195.796 175.621)" fill="#fff" font-size="53" font-family="Avenir-Medium, Avenir" font-weight="500"><tspan x="0" y="0">zymandias</tspan></text>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="21" cy="20.5" rx="21" ry="20.5" transform="translate(149.796 138.621)" fill="#fff"/>
+    <g id="Icon_feather-eye" data-name="Icon feather-eye" transform="translate(156.567 149.201)">
+      <path id="Path_1" data-name="Path 1" d="M1.5,16.2S6.6,6,15.524,6,29.549,16.2,29.549,16.2s-5.1,10.2-14.024,10.2S1.5,16.2,1.5,16.2Z" transform="translate(-1.5 -6)" fill="none" stroke="#521b93" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_2" data-name="Path 2" d="M21.15,17.325A3.825,3.825,0,1,1,17.325,13.5,3.825,3.825,0,0,1,21.15,17.325Z" transform="translate(-3.3 -7.125)" fill="none" stroke="#521b93" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

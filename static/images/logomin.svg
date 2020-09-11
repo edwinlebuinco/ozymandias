@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="71" viewBox="0 0 96 71">
+  <g id="Logo" transform="translate(-150 -122.946)">
+    <text id="zy" transform="translate(195 174.946)" font-size="52" font-family="Avenir-Medium, Avenir" font-weight="500"><tspan x="0" y="0">zy</tspan></text>
+    <path id="Path_65" data-name="Path 65" d="M20.5,0a20.5,20.5,0,0,1,0,41,20.71,20.71,0,0,1-9.664-2.416A20.5,20.5,0,0,1,20.5,0Z" transform="translate(150 137.946)"/>
+    <g id="Icon_feather-eye" data-name="Icon feather-eye" transform="translate(156.434 148.43)">
+      <path id="Path_1" data-name="Path 1" d="M1.5,15.885S6.442,6,15.091,6s13.591,9.885,13.591,9.885-4.942,9.885-13.591,9.885S1.5,15.885,1.5,15.885Z" transform="translate(-1.5 -6)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_2" data-name="Path 2" d="M20.913,17.207A3.707,3.707,0,1,1,17.207,13.5,3.707,3.707,0,0,1,20.913,17.207Z" transform="translate(-3.615 -7.322)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
