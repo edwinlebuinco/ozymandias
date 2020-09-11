@@ -1,0 +1,50 @@
+body{
+    /* display: none; */
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: #FFF;
+}
+
+.table-striped tbody tr:hover {
+    background-color: rgba(0,0,0,.075) !important;
+}
+
+li.list-item{
+    list-style-type: none !important;
+}
+
+li.list-item.title{
+    font-size: 30px;
+}
+
+li.list-item.prox{
+    background: #eee;
+    color: #bbbbbb;
+    width: 130px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.p_titulo{
+    font-size: 30px;
+    color: #BDBDBD;
+    margin-bottom: 5px;
+}
+.p_subtitulo{
+    color: #BDBDBD;
+    margin-bottom: 5px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 5% !important;
+}
+.carousel-item{
+    padding: 0 5% !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
